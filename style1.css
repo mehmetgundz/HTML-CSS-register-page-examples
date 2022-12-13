@@ -1,0 +1,79 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+h1 {
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    padding: 30px 0; 
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+    
+
+
+
+form {
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+    padding: 50px;
+    width: fit-content;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 5px 20px 2px rgb(0 0 0 / 40%);
+    width: 555px;
+    height: 370px;
+}
+
+form.hover{
+    /* -webkit-box-shadow: 0 0 1rem rgb(0 0 0 / 60%); */
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%);
+    background-color: rgba(255,255,255,.25);
+}
+
+label {
+    text-align: left;
+    display: inline-block;
+    width: 150px;
+    font-weight: 700;
+}
+
+
+.labels{
+    text-align: left;
+    width: 455px;
+    height: 75px;
+    
+}
+
+.input {
+
+        width: 300px;
+        padding: 10px 20px;
+        border: 1px solid rgb(122, 121, 121);
+        border-radius: 5px;
+        margin-bottom: 30px;
+
+}
+
+button {
+    background-color: plum;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-right: 20px;
+    
+}
